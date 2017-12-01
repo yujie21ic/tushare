@@ -70,9 +70,9 @@ setup(
 #     long_description=read("READM.rst"),
     long_description = long_desc,
     author='Jimmy Liu',
-    install_requires={
+    install_requires=[
                       'lxml>=3.4.0'
-    },
+    ],
     author_email='jimmysoa@sina.cn',
     license='BSD',
     url='http://tushare.org',
